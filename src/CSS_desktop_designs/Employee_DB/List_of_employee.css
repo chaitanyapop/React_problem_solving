@@ -1,0 +1,31 @@
+.header_list_of_employee
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+.employee_list
+{
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(205, 202, 202);
+    border-radius: 2rem;
+}
+.employee_list:hover{
+    background-color: gray;
+}
+.emp_list_section
+{
+    overflow-y: auto;
+    height: 25rem;
+    
+}
+.emp_name:hover{
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.user_form
+{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem;
+    height: 40rem;
+    width: 30rem;
+    margin: auto;
+    background-color: white;
+    z-index: +1;
+}
+#submit_button
+{
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+#close_button
+{
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.labels
+{
+    margin: 0.5rem;
+    font-weight: bold;
+}
+.user_input
+{
+    width: 25rem;
+    margin-left: 0.5rem;
+    padding: 0.3rem;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.user_input:focus
+{
+    outline: none;
+}
