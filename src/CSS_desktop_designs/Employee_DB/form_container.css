@@ -1,0 +1,10 @@
+   .form_container{ 
+   position: absolute;
+   width: 99.2%;
+   height: 98%; 
+   background-color: rgba(141,141,141,0.541);
+   }
+   .no_form
+   {
+    display: none;
+   }

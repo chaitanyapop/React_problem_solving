@@ -1,0 +1,19 @@
+.employee_detail_header{
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 20rem;
+    margin: auto;
+    padding: 0.5rem;
+}
+.employee_details_section
+{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#employee_image{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 10rem;
+}
