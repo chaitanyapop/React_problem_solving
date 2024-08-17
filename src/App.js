@@ -7,7 +7,7 @@ import Employee_database from './Component/Employee_database';
 function App() {
   return (
     <div>
-      <Employee_database/>
+      <Timer/>
     </div>
   );
 }
