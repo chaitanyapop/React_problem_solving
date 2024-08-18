@@ -1,0 +1,54 @@
+html{
+    size: 10px;
+}
+.container
+{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.player_score_status_and_reset
+{
+    display: flex;
+    column-gap: 5rem;
+    align-items: center;
+}
+
+#Reset_button
+{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 0.5rem;
+}
+.result_text
+{
+    font-size: 2rem;
+}
+
+/*Game board CSS*/
+.tic_tac_toe_game_board
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 2px solid red;
+    border-color: gray;
+    border-width: 1rem;
+}
+#game_buttons
+{
+    height: 5rem;
+    width: 5rem;
+    border-color: gray;
+}
+.button_tic_tac
+{
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+.button_tic_tac:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+    background-color: gray;
+}
