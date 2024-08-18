@@ -1,7 +1,7 @@
 import { useState } from "react"
+import "../../CSS_desktop_designs/Otp/Phone_number.css"
 function Phone_number(props)
 {
-    // let [phoneNumber, setPhoneNumber]=useState()
     let [phoneError, setPhoneError]=useState("")
     let [disable,setDisable]=useState(true)
     function phone_number_enter(e)
@@ -21,11 +21,12 @@ function Phone_number(props)
     }
     return(
         <div>
-            <section>
-                <p>Enter Mobile number</p>
-                <input type="number" placeholder="Enter mobile number" value={props.phoneNumber} onChange={phone_number_enter}></input>
-                {phoneError!="" && <p>{phoneError}</p>}
-                <button disabled={disable} onClick={()=>{props.setOtpFlag(true)}}>Send OTP</button>
+            <section className="Phone_number_section">
+                <p className="Header">Enter Mobile number</p>
+                <input type="number" placeholder="Enter mobile number" value={props.phoneNumber} onChange={phone_number_enter}
+                className="phone_input"></input>
+                {phoneError!="" && <p className="error_dialog">{phoneError}</p>}
+                <button disabled={disable} onClick={()=>{props.setOtpFlag(true)}} className="button_otp">Send OTP</button>
             </section>
         </div>
     )

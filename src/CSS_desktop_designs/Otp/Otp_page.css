@@ -1,0 +1,16 @@
+.Otp_page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+.otp_input
+{
+    margin: 2rem;
+    text-align: center;
+    height: 5rem;
+    width: 4rem;
+    font-size: 2rem;
+}
+

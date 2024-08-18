@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { useSelector } from "react-redux"
-import Phone_number from "../utility/Otp/Phone_number"
-import Otp_module from "../utility/Otp/Otp_module"
+import Phone_number from "../utility_component/Otp/Phone_number"
+import Otp_module from "../utility_component/Otp/Otp_module"
 function Otp()
 {
     let[sendOtpFlag,setOtpFlag]=useState(false)
