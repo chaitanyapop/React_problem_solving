@@ -1,0 +1,37 @@
+html{
+    size: 10px;
+}
+.Phone_number_section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+}
+.phone_input
+{
+    width: 15rem;
+    padding: 1rem;
+}
+.Header
+{
+    font-size: 2rem;
+}
+.error_dialog{
+    color: red;
+    font-size: 1.4rem;
+}
+.button_otp
+{
+    width: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.button_otp:hover{
+    font-weight: bold;
+    background-color: gray;
+    cursor: pointer;
+}
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}/*learn about this */
